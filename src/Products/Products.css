@@ -1,0 +1,13 @@
+.products-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.ui.card>.extra{
+    border-top: hidden !important;
+}
+
+
+.ui.card>.content>.description{
+    color: #4D4D4D;
+}

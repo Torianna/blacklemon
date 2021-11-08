@@ -1,0 +1,54 @@
+
+.icon-circle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.circle{
+    border: 1.5px solid #9F938B;
+    width: fit-content;
+    border-radius: 50%;
+    display: flex;
+    margin: 20px;
+}
+
+.icon-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.button-add-to-cart{
+    width: 373px;
+    height: 50px;
+    font-family: Lato;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #4D4D4D;
+    background-color: #BFABAB;
+    align-self: center;
+    border: transparent;
+    margin-top: 57px;
+}
+.ui.breadcrumb .section{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 159.1%;
+    letter-spacing: 0.05em;
+    color: #4D4D4D;
+}
+.ui.breadcrumb {
+    align-self: baseline;
+    margin-bottom: 50px;
+}
+
+.description-details{
+    padding: 50px;
+    background-color: #F6F6F5;
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+}
