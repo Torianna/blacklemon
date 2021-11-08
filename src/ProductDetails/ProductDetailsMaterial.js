@@ -6,9 +6,9 @@ import {OrganicIcon} from "./OrganicIcon";
 export const ProductDetailsMaterial =()=> {
     return (
         <div style={{display: 'flex'}}>
-            <Grid columns={2}>
+            <Grid >
                 <Grid.Row>
-                    {[...Array(4)].map(() => <Grid.Column>
+                    {[...Array(4)].map(() => <Grid.Column width={8}>
                             <OrganicIcon />
                         </Grid.Column>)}
                 </Grid.Row>

@@ -8,11 +8,11 @@ export const Product =()=> {
         <Card style={{margin: '30px', border: 'none', borderRadius: 'none', boxShadow: 'none'}}>
             <Image src={product} wrapped ui={false} />
             <Card.Content>
-                <Card.Description style={{fontWeight: 'normal' ,color: 'none'}}>HAND POMADE / POMMADE MAINS</Card.Description>
+                <Card.Description style={{fontWeight: 'bold' ,color: 'none'}}>HAND POMADE / POMMADE MAINS</Card.Description>
                 <Card.Description style={{fontWeight: '300'}}>NOURISHMENT FOR YOUR HANDS</Card.Description>
             </Card.Content>
             <Card.Content extra>
-                <a>
+                <a style={{fontWeight: 'bold', color: '#4D4D4D'}}>
                     159,00 KR
                 </a>
             </Card.Content>

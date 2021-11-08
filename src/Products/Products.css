@@ -1,6 +1,12 @@
+.recommended-products{
+    width: 100%;
+}
+
 .products-wrapper{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    overflow-x: auto;
 }
 
 .ui.card>.extra{

@@ -1,23 +1,26 @@
 
 .icon-circle {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
+    width: 40px;
+    height: 40px;
 }
 
 .circle{
-    border: 1.5px solid #9F938B;
+    border: 0.1em solid #9F938B;
     width: fit-content;
     border-radius: 50%;
     display: flex;
-    margin: 20px;
+    padding: 10px;
 }
 
 .icon-wrapper{
     display: flex;
     flex-direction: row;
-    align-self: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.icon-wrapper-text{
+    padding-left: 1em;
 }
 
 .button-add-to-cart{
@@ -46,9 +49,15 @@
 }
 
 .description-details{
+    width: 100%;
     padding: 50px;
     background-color: #F6F6F5;
     display: flex;
     flex-direction: column;
-    align-self: baseline;
+}
+
+@media only screen and (max-width: 400px) {
+    .description-details *.ui.grid>.row>[class*="eight wide"].column{
+        width: 100% !important;
+    }
 }

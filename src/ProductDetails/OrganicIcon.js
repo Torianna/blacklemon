@@ -8,7 +8,7 @@ export const OrganicIcon =()=> {
         <div className={'icon-wrapper'}>
         <div className={'circle'}>
         <Image className={'icon-circle'} src={ReactLogo}/></div>
-            <span className={'icon-wrapper'}> 100% ORGANIC</span>
+            <span className={'icon-wrapper-text'}> 100% ORGANIC</span>
         </div>
     );
 }

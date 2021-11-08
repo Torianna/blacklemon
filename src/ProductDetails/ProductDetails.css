@@ -1,6 +1,10 @@
 .productDetails{
-    text-align: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .productDetails{
+        flex-direction: column;
+    }
 }

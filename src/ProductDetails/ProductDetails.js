@@ -7,13 +7,13 @@ import {Products} from "../Products/Products";
 
 export const ProductDetails =()=> {
     return (
-        <div>
+        <React.Fragment>
             <div className={'productDetails'}>
-                <Image src={mainPicture}/>
+                    <Image src={mainPicture}/>
                 <Description/>
             </div>
             <Products/>
-        </div>
+        </React.Fragment>
 
     );
 }
